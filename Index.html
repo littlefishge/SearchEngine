@@ -17,56 +17,96 @@
 
 		function get_data(argument) {
 			return  {
-				"online_shopping": [
-					{ "webname":"eBay" , "weblink":"http://www.ebay.com.sg/" }, 
-					{ "webname":"Amazon" , "weblink":"http://www.amazon.com/" }, 
-					{ "webname":"LAZADA" , "weblink":"http://www.lazada.sg/" },
-					{ "webname":"ZALORA" , "weblink":"http://www.zalora.sg/" }
+				"Online Shopping": [
+					{ "webname":"eBay" , "weblink":"http://www.ebay.com.sg/", "imgpath": "img/ebay.png"}, 
+					{ "webname":"Amazon" , "weblink":"http://www.amazon.com/", "imgpath": "img/Amazon.png" }, 
+					{ "webname":"LAZADA" , "weblink":"http://www.lazada.sg/", "imgpath": "img/lazada.png" },
+					{ "webname":"ZALORA" , "weblink":"http://www.zalora.sg/", "imgpath": "img/zalora.png" }
 				],
 
-				"job_searching": [
-					{ "webname":"JobStreet" , "weblink":"http://www.jobstreet.com.sg/" }, 
-					{ "webname":"JobsDB" , "weblink":"http://sg.jobsdb.com/" }, 
-					{ "webname":"LinkedIn" , "weblink":"https://www.linkedin.com/" },
-					{ "webname":"JobsCentral" , "weblink":"http://jobscentral.com.sg/" }
+				"Job Searching": [
+					{ "webname":"JobStreet" , "weblink":"http://www.jobstreet.com.sg/", "imgpath": "img/JobStreet.png" }, 
+					{ "webname":"JobsDB" , "weblink":"http://sg.jobsdb.com/", "imgpath": "img/JobsDB.png" }, 
+					{ "webname":"LinkedIn" , "weblink":"https://www.linkedin.com/", "imgpath": "img/linkedin.png" },
+					{ "webname":"JobsCentral" , "weblink":"http://jobscentral.com.sg/", "imgpath": "img/JobsCentral.png" }
 				],
 
-				"having_fun": [
-					{ "webname":"9GAG" , "weblink":"http://9gag.com/" }
+				"Having Fun": [
+					{ "webname":"9GAG" , "weblink":"http://9gag.com/", "imgpath": "img/9gag.png" }
 				],
 
-				"finding_hobbies": [
-					{ "webname":"ClubSNAP" , "weblink":"http://www.clubsnap.com/" }, 
-					{ "webname":"TOGOPARTS" , "weblink":"http://www.togoparts.com/pages/index.php" }
+				"Finding Hobbies": [
+					{ "webname":"ClubSNAP" , "weblink":"http://www.clubsnap.com/", "imgpath": "img/ClubSNAP.png" }, 
+					{ "webname":"TOGOPARTS" , "weblink":"http://www.togoparts.com/pages/index.php", "imgpath": "img/TOGOPARTS.png" }
 				],
 
-				"job_searching": [
-					{ "webname":"POSB" , "weblink":"http://www.posb.com.sg/" }, 
-					{ "webname":"DBS" , "weblink":"https://www.dbs.com.sg/" }, 
-					{ "webname":"OCBC" , "weblink":"http://www.ocbc.com/" },
-					{ "webname":"StandardChartered" , "weblink":"https://www.sc.com/sg/" }
+				"Bank Linking": [
+					{ "webname":"POSB" , "weblink":"http://www.posb.com.sg/", "imgpath": "img/POSB.png" }, 
+					{ "webname":"DBS" , "weblink":"https://www.dbs.com.sg/", "imgpath": "img/DBS.png" }, 
+					{ "webname":"OCBC" , "weblink":"http://www.ocbc.com/", "imgpath": "img/OCBC.png" },
+					{ "webname":"StandardChartered" , "weblink":"https://www.sc.com/sg/", "imgpath": "img/StandardChartered.png" }
 				]
 			};
 		}
 
 		function nav_and_content_format(){
 			data = get_data()
-			console.log(data.length)
-			document.getElementById("nav_and_content").innerHTML = 
-			'<div class="tabbable">'+
-				'<ul class="nav nav-tabs container_margin">'+
 
+			var tab_nav_html = '<div class="tabbable"><ul class="nav nav-tabs container_margin">'
 
+			for (var i in data){
 
-	    			'<li><a href="#onlineShopping" data-toggle="tab">Online Shopping</a></li>'+
-	    			'<li><a href="#jobSearching" data-toggle="tab">Job Searching</a></li>'+
-	    			'<li><a href="#havingFun" data-toggle="tab">Having Fun</a></li>'+
-	    			'<li><a href="#findingHobbies" data-toggle="tab">Finding Hobbies</a></li>'+
-	    			'<li><a href="#bankLinking" data-toggle="tab">Bank Linking</a></li>'+
-	    			'<li><a href="#hotelBooking" data-toggle="tab">Hotel Booking</a></li>'+
-	  			'</ul>'+
-	  		'</div>';
-		}	
+				if(i == "Online Shopping"){
+					tab_nav_html += '<li class="active"><a href="#'+i+'" data-toggle="tab">'+i+'</a></li>'
+				}
+
+				else{
+					tab_nav_html += '<li><a href="#'+i+'" data-toggle="tab">'+i+'</a></li>'
+				}
+				console.log(tab_nav_html)
+			}
+
+			tab_nav_html += '</ul>'
+			
+		//	for (var i in data){
+		//		console.log(data[i].length)
+		//		for(var j = 0; j < data[i].length; j++) {
+		//			console.log(data[i][j]['webname'])
+		//			console.log(data[i][j]['weblink'])
+		//		}
+		//	}
+
+			var tab_content_html = '<div class="tab-content">'
+
+			for (var i in data){
+
+				if(i == "Online Shopping"){
+					tab_content_html += '<div class="tab-pane active" id="'+i+'">'
+				}
+
+				else{
+					tab_content_html += '<div class="tab-pane" id="'+i+'">'
+				}
+
+				tab_content_html += '<div class="row">'
+				for(var j = 0; j < data[i].length; j++){
+			  	  		tab_content_html +='<div class="col-md-2 col-sm-2 col-xs-6">'+
+				    							'<div class="panel panel-default">'+
+				    								'<div class="panel-heading">'+
+				    									'<h3 class="panel-title">'+data[i][j]['webname']+'</h3>'+
+				  									'</div>'+
+				  								'</div>'+	
+				      							'<div class="panel-body">'+
+				      								'<a target="_blank" href="'+data[i][j]['weblink']+'"><img src="'+data[i][j]['imgpath']+'" class="img-responsive img-rounded img_border"/></a>'+
+				  								'</div>'+
+				     						'</div>'
+				}
+				tab_content_html += '</div></div>'
+			}
+			tab_content_html += '</div>'
+
+			document.getElementById("nav_and_content").innerHTML = tab_nav_html+tab_content_html
+		}
 
 	</script>
 	<body onload="nav_and_content_format();">
@@ -91,238 +131,7 @@
 	<!-- End of google search bar-->
 
 	<div class="container container_margin" id="nav_and_content">
-		<div class="tabbable"> <!-- Only required for left/right tabs -->
-	  		<ul class="nav nav-tabs container_margin">
-	    		<li class="active"><a href="#onlineShopping" data-toggle="tab">Online Shopping</a></li>
-	    		<li><a href="#jobSearching" data-toggle="tab">Job Searching</a></li>
-	    		<li><a href="#havingFun" data-toggle="tab">Having Fun</a></li>
-	    		<li><a href="#findingHobbies" data-toggle="tab">Finding Hobbies</a></li>
-	    		<li><a href="#bankLinking" data-toggle="tab">Bank Linking</a></li>
-	    		<li><a href="#hotelBooking" data-toggle="tab">Hotel Booking</a></li>
-	  		</ul>
-
-	  		<!--Content-->
-	  		<div class="tab-content">
-	  			<!--Start of onlineShopping content-->
-	    		<div class="tab-pane active" id="onlineShopping">
-			      	<div class="row">
-			  	  		<div class="col-md-2 col-sm-2 col-xs-6">
-				    		<div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">eBay</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.ebay.com.sg/"><img src="img/ebay.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-				     	</div>
-				     	<div class="col-md-2 col-sm-2 col-xs-6">
-				    		<div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">Amazon</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.amazon.com/"><img src="img/Amazon.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-				     	</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">LAZADA</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.lazada.sg/"><img src="img/lazada.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">ZALORA</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.zalora.sg/"><img src="img/zalora.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-						</div>
-			    	</div>
-	    		</div>
-
-				<!--Start of jobSearching content-->
-	    		<div class="tab-pane" id="jobSearching">
-	      			<div class="row">
-	  	  				<div class="col-md-2 col-sm-2 col-xs-6">
-			    			<div class="panel panel-default">
-	    						<div class="panel-heading">
-	    							<h3 class="panel-title">JobStreet</h3>
-	  							</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.jobstreet.com.sg/"><img src="img/JobStreet.png" class="img-responsive img-rounded"/></a>
-				  				</div>
-			     			</div>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">JobsDB</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://sg.jobsdb.com/"><img src="img/JobsDB.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">LinkedIn</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="https://www.linkedin.com/"><img src="img/linkedin.png" class="img-responsive img-rounded"/></a>
-				  				</div>
-				     		</div>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">JobsCentral</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://jobscentral.com.sg/"><img src="img/JobsCentral.png" class="img-responsive img-rounded"/></a>
-				  				</div>
-				     		</div>
-						</div>
-					</div>
-	  	  		</div>
-
-	  	  		<!--Start of havingFun content-->
-	  	  		<div class="tab-pane" id="havingFun">
-	      			<div class="row">
-	  	  				<div class="col-md-2 col-sm-2 col-xs-6">
-			    			<div class="panel panel-default">
-	    						<div class="panel-heading">
-	    							<h3 class="panel-title">9GAG</h3>
-	  							</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://9gag.com/"><img src="img/9gag.png" class="img-responsive img-rounded"/></a>
-				  				</div>
-			     			</div>
-						</div>
-					</div>
-	  	  		</div>
-	  	  		<!--Start of findingHobbies content-->
-	  	  		<div class="tab-pane" id="findingHobbies">
-	      			<div class="row">
-				  	  	<div class="col-md-2 col-sm-2 col-xs-6">
-				    		<div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">ClubSNAP</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.clubsnap.com/"><img src="img/ClubSNAP.png" class="img-responsive img-rounded"/></a>
-				  				</div>
-				     		</div>
-				     	</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">TOGOPARTS</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.togoparts.com/pages/index.php"><img src="img/TOGOPARTS.png" class="img-responsive img-rounded"/></a>
-				  				</div>
-				     		</div>
-						</div>
-	    			</div>
-	  	  		</div>
-	  	  		<!--Start of bankLinking content-->
-	  	  		<div class="tab-pane" id="bankLinking">
-	      			<div class="row">
-				  	  	<div class="col-md-2 col-sm-2 col-xs-6">
-				    		<div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h1 class="panel-title">POSB</h1>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.posb.com.sg/"><img src="img/POSB.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-				     	</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">DBS</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="https://www.dbs.com.sg/"><img src="img/DBS.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">OCBC</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.ocbc.com/"><img src="img/OCBC.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">StandardChartered</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="https://www.sc.com/sg/"><img src="img/StandardChartered.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-						</div>
-	    			</div>
-	  	  		</div>
-	  	  		<!--Start of hotelBooking content-->
-	  	  		<div class="tab-pane" id="hotelBooking">
-	      			<div class="row">
-				  	  	<div class="col-md-2 col-sm-2 col-xs-6">
-				    		<div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">Booking</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="http://www.booking.com/"><img src="img/booking.png" class="img-responsive img-rounded"/></a>
-				  				</div>
-				     		</div>
-				     	</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">Airbnb</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="https://www.airbnb.com/"><img src="img/Airbnb.png" class="img-responsive img-rounded img_border"/></a>
-				  				</div>
-				     		</div>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-6">
-						    <div class="panel panel-default">
-				    			<div class="panel-heading">
-				    				<h3 class="panel-title">Agoda</h3>
-				  				</div>
-				      			<div class="panel-body">
-				      				<a target="_blank" href="https://www.agoda.com/‎"><img src="img/agoda.png" class="img-responsive img-rounded"/></a>
-				  				</div>
-				     		</div>
-						</div>
-	    			</div>
-	  	  		</div>
-
-	  	  		<!--Start of tab6 content-->
-	  	  		<!--
-	  	  		<div class="tab-pane" id="tab6">
-	  	  		</div>
-				-->
-	  		</div>
-		</div>
+		
 	</div>
 
 	<!-- Start of the Footer-->

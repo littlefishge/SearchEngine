@@ -5,25 +5,25 @@
 	padding: 0px;
 }
 
-.containerMargin{
+.container_margin{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.site-footer{
+.site_footer{
 	background-color: #222;
 	color: white;
 	margin-top: 30px;
 	padding-top: 30px;
 }
 
-.bottom-footer{
+.bottom_footer{
 	border-top: 1px solid #b2b2b2;
 	margin-top: 10px;
 	padding-top: 10px;
 	color: white;
 }
 
-.imgBorder{
+.img_border{
 	border: 1px solid #C8C8C8;
 }
