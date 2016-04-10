@@ -45,6 +45,12 @@
 					{ "webname":"DBS" , "weblink":"https://www.dbs.com.sg/", "imgpath": "img/DBS.png" }, 
 					{ "webname":"OCBC" , "weblink":"http://www.ocbc.com/", "imgpath": "img/OCBC.png" },
 					{ "webname":"StandardChartered" , "weblink":"https://www.sc.com/sg/", "imgpath": "img/StandardChartered.png" }
+				],
+
+				"Hotel Booking": [
+					{ "webname":"Booking" , "weblink":"http://www.booking.com/", "imgpath": "img/booking.png" }, 
+					{ "webname":"Airbnb" , "weblink":"https://www.airbnb.com/", "imgpath": "img/Airbnb.png" }, 
+					{ "webname":"Agoda" , "weblink":"https://www.agoda.com/‎", "imgpath": "img/agoda.png" }
 				]
 			};
 		}
@@ -52,7 +58,7 @@
 		function nav_and_content_format(){
 			data = get_data()
 
-			var tab_nav_html = '<div class="tabbable"><ul class="nav nav-tabs container_margin">'
+			var tab_nav_html = '<div class="tabbable"> <ul class="nav nav-tabs container_margin">'
 
 			for (var i in data){
 
@@ -63,18 +69,9 @@
 				else{
 					tab_nav_html += '<li><a href="#'+i+'" data-toggle="tab">'+i+'</a></li>'
 				}
-				console.log(tab_nav_html)
 			}
 
 			tab_nav_html += '</ul>'
-			
-		//	for (var i in data){
-		//		console.log(data[i].length)
-		//		for(var j = 0; j < data[i].length; j++) {
-		//			console.log(data[i][j]['webname'])
-		//			console.log(data[i][j]['weblink'])
-		//		}
-		//	}
 
 			var tab_content_html = '<div class="tab-content">'
 
