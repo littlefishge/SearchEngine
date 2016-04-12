@@ -58,7 +58,7 @@
 		function nav_and_content_format(){
 			data = get_data()
 
-			var tab_nav_html = '<div class="tabbable"> <ul class="nav nav-tabs container_margin">'
+			var tab_nav_html = '<div class="tabbable"> <ul class="nav nav-tabs container_margin" id="nav_tabs">'
 
 			for (var i in data){
 
@@ -73,18 +73,16 @@
 
 			tab_nav_html += '</ul>'
 
-			var tab_content_html = '<div class="tab-content">'
+			var tab_content_html = '<div class="tab-content" id="tab_content">'
 
 			for (var i in data){
 
 				if(i == "Online Shopping"){
-					tab_content_html += '<div class="tab-pane active" id="'+i+'">'
+				tab_content_html += '<div id="'+i+'" class="tab-pane fade in active">'
 				}
-
 				else{
-					tab_content_html += '<div class="tab-pane" id="'+i+'">'
+				tab_content_html += '<div id="'+i+'" class="tab-pane fade">'
 				}
-
 				tab_content_html += '<div class="row">'
 				for(var j = 0; j < data[i].length; j++){
 			  	  		tab_content_html +='<div class="col-md-2 col-sm-2 col-xs-6">'+
@@ -102,7 +100,28 @@
 			}
 			tab_content_html += '</div>'
 
-			document.getElementById("nav_and_content").innerHTML = tab_nav_html+tab_content_html
+			document.getElementById("nav_and_content").innerHTML = tab_nav_html + tab_content_html
+
+			var tabs=document.getElementById("nav_tabs").getElementsByTagName("li")
+
+			var divs=document.getElementById("tab_content").children
+
+			for (var i = 0; i < tabs.length; i++){
+				tabs[i].onclick = function(){change(this)}
+			}
+
+			function change(obj){
+				for (var i = 0; i < tabs.length; i++){
+					if (tabs[i]==obj){
+						tabs[i].className = "active"
+						divs[i].className = "tab-pane fade in active"
+					}
+					else{
+						tabs[i].className = ""
+						divs[i].className = "tab-pane fade"
+					}
+				}
+			}
 		}
 
 	</script>
