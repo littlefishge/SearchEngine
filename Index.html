@@ -17,7 +17,7 @@
 
 		function get_data(argument) {
 			return  {
-				"Online Shopping": [
+				"Shopping": [
 					{ "webname":"eBay" , "weblink":"http://www.ebay.com.sg/", "imgpath": "img/ebay.png"}, 
 					{ "webname":"Amazon" , "weblink":"http://www.amazon.com/", "imgpath": "img/Amazon.png" }, 
 					{ "webname":"LAZADA" , "weblink":"http://www.lazada.sg/", "imgpath": "img/lazada.png" },
@@ -39,8 +39,23 @@
 					{ "webname":"Omigo" , "weblink":"http://www.omigo.com.sg/", "imgpath": "img/Omigo.png" },
 					{ "webname":"StyleTribute" , "weblink":"http://styletribute.com/", "imgpath": "img/StyleTribute.png"},
 					{ "webname":"BooksActually" , "weblink":"http://www.booksactuallyshop.com/", "imgpath": "img/BooksActually.png" }
-
 				],
+
+				"Food": [
+					{ "webname":"HungryGoWhere" , "weblink":"http://www.hungrygowhere.com/", "imgpath": "img/HungryGoWhere.png"}, 
+					{ "webname":"Foodpanda" , "weblink":"https://www.foodpanda.sg/", "imgpath": "img/Foodpanda.png" }, 
+					{ "webname":"Koipy" , "weblink":"https://www.koipy.com/?language=en_us&setlanguage=1", "imgpath": "img/Koipy.png" },
+					{ "webname":"gourmettogo" , "weblink":"http://www.gourmettogo.com.sg/", "imgpath": "img/gourmettogo.png" },
+					{ "webname":"Sakae" , "weblink":"http://www.sakaedelivery.com/", "imgpath": "img/Sakae.png"}, 
+					{ "webname":"Chope" , "weblink":"http://www.chope.co/singapore-restaurants", "imgpath": "img/Chope.png" }, 
+					{ "webname":"Yoshinoya" , "weblink":"http://yoshinoya.com.sg/home/", "imgpath": "img/Yoshinoya.png" },
+					{ "webname":"Foodferry" , "weblink":"http://www.foodferry.sg/en/?___from_store=cn", "imgpath": "img/Foodferry.png" },
+					{ "webname":"Wendys" , "weblink":"https://www.wendys.com/", "imgpath": "img/Wendys.png" }, 
+					{ "webname":"StarTaster" , "weblink":"http://startaster.com/?l=en-us", "imgpath": "img/StarTaster.png" },
+					{ "webname":"SingEat" , "weblink":"http://www.singeat.com/", "imgpath": "img/SingEat.png" },
+					{ "webname":"PizzaHut" , "weblink":"https://www.phdelivery.com.sg/delivery", "imgpath": "img/Pizzahut.png"}
+				],
+
 
 				"Job Searching": [
 					{ "webname":"JobStreet" , "weblink":"http://www.jobstreet.com.sg/", "imgpath": "img/JobStreet.png" }, 
@@ -80,6 +95,14 @@
 					{ "webname":"Booking" , "weblink":"http://www.booking.com/", "imgpath": "img/booking.png" }, 
 					{ "webname":"Airbnb" , "weblink":"https://www.airbnb.com/", "imgpath": "img/Airbnb.png" }, 
 					{ "webname":"Agoda" , "weblink":"https://www.agoda.com/‎", "imgpath": "img/agoda.png" }
+				],
+
+				"Delivery": [
+					{ "webname":"UPS" , "weblink":"https://www.ups.com/sg", "imgpath": "img/UPS.png" }, 
+					{ "webname":"Fedex" , "weblink":"http://www.fedex.com/sg/", "imgpath": "img/Fedex.png" }, 
+					{ "webname":"DHL" , "weblink":"http://www.dhl.com.sg/en.html", "imgpath": "img/DHL.png" },
+					{ "webname":"SF" , "weblink":"http://www.sf-express.com/sg/en/", "imgpath": "img/SF.png" },
+					{ "webname":"Singpost" , "weblink":"http://beta.singpost.com/", "imgpath": "img/singpost.png" }
 				]
 			};
 		}
@@ -91,7 +114,7 @@
 
 			for (var i in data){
 
-				if(i == "Online Shopping"){
+				if(i == "Shopping"){
 					tab_nav_html += '<li class="active"><a href="#'+i+'" data-toggle="tab">'+i+'</a></li>'
 				}
 
@@ -106,7 +129,7 @@
 
 			for (var i in data){
 
-				if(i == "Online Shopping"){
+				if(i == "Shopping"){
 				tab_content_html += '<div id="'+i+'" class="tab-pane fade in active">'
 				}
 				else{
