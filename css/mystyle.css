@@ -13,12 +13,12 @@
 .site_footer{
 	background-color: #222;
 	color: white;
-	margin-top: 30px;
-	padding-top: 30px;
+	margin-top: 0px;
+	padding-top: 10px;
 }
 
 .bottom_footer{
-	border-top: 1px solid #b2b2b2;
+
 	margin-top: 10px;
 	padding-top: 10px;
 	color: white;

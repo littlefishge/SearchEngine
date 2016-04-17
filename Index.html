@@ -17,6 +17,7 @@
 
 		function get_data(argument) {
 			return  {
+
 				"Shopping": [
 					{ "webname":"eBay" , "weblink":"http://www.ebay.com.sg/", "imgpath": "img/ebay.png"}, 
 					{ "webname":"Amazon" , "weblink":"http://www.amazon.com/", "imgpath": "img/Amazon.png" }, 
@@ -103,6 +104,14 @@
 					{ "webname":"DHL" , "weblink":"http://www.dhl.com.sg/en.html", "imgpath": "img/DHL.png" },
 					{ "webname":"SF" , "weblink":"http://www.sf-express.com/sg/en/", "imgpath": "img/SF.png" },
 					{ "webname":"Singpost" , "weblink":"http://beta.singpost.com/", "imgpath": "img/singpost.png" }
+				],
+
+				"Movie": [
+					{ "webname":"GoldenVillage" , "weblink":"http://www.gv.com.sg/", "imgpath": "img/GoldenVillage.png" }, 
+					{ "webname":"ShawOnline" , "weblink":"http://www.shaw.sg/", "imgpath": "img/ShawOnline.png" }, 
+					{ "webname":"Cathay" , "weblink":"http://www.cathaycineplexes.com.sg/movies.aspx", "imgpath": "img/Cathay.png" },
+					{ "webname":"WeCinemas" , "weblink":"https://www.wecinemas.com.sg/", "imgpath": "img/WeCinemas.png" },
+					{ "webname":"InSing" , "weblink":"http://www.insing.com/", "imgpath": "img/InSing.png" }
 				]
 			};
 		}
@@ -138,12 +147,8 @@
 				tab_content_html += '<div class="row">'
 				for(var j = 0; j < data[i].length; j++){
 			  	  		tab_content_html +='<div class="col-md-2 col-sm-2 col-xs-6">'+
-				    							'<div class="panel panel-default">'+
-				    								'<div class="panel-heading">'+
-				    									'<h3 class="panel-title">'+data[i][j]['webname']+'</h3>'+
-				  									'</div>'+
-				  								'</div>'+	
 				      							'<div class="panel-body">'+
+				      								'<h4>'+data[i][j]['webname']+'</h4>'+
 				      								'<a target="_blank" href="'+data[i][j]['weblink']+'"><img src="'+data[i][j]['imgpath']+'" class="img-responsive img-rounded img_border"/></a>'+
 				  								'</div>'+
 				     						'</div>'
@@ -211,19 +216,9 @@
 	<!-- Start of the Footer-->
 	<footer class="site_footer">
 	  <div class="container">
-	    <div class="row">
-	    <div class="col-md-5">
-	      <h4>Contact Address</h4>
-	        <address>
-	              #999, Street of place, <br>
-	              City of place,<br>
-	              Country.
-	        </address>
-	    </div>
-	    </div>
-	    <div class="bottom_footer">
+	    
 	    	<p class="text-center">© Copyright</p>
-	    </div>
+	
 	  </div>
 	</footer>
 	<!-- End of the Footer-->
