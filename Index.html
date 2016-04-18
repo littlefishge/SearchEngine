@@ -84,6 +84,7 @@
 					{ "webname":"HSBC" , "weblink":"http://www.hsbc.com.sg/", "imgpath": "img/HSBC.png" },
 					{ "webname":"StandardChartered" , "weblink":"https://www.sc.com/sg/", "imgpath": "img/StandardChartered.png" },
 					{ "webname":"Citibank" , "weblink":"https://www.citibank.com.sg/", "imgpath": "img/Citibank.png" },
+					{ "webname":"BOC" , "weblink":"http://www.bankofchina.com/sg/", "imgpath": "img/BOC.png" },
 					{ "webname":"Maybank" , "weblink":"http://info.maybank2u.com.sg/", "imgpath": "img/Maybank.png" },
 					{ "webname":"ANZ" , "weblink":"http://www.anz.com/singapore/en/Personal/", "imgpath": "img/ANZ.png" },
 					{ "webname":"RHB" , "weblink":"http://www.rhbbank.com.sg/", "imgpath": "img/RHB.png" },
@@ -148,7 +149,7 @@
 				for(var j = 0; j < data[i].length; j++){
 			  	  		tab_content_html +='<div class="col-md-2 col-sm-2 col-xs-4">'+
 				      							'<div class="panel-body">'+
-				      								'<h4>'+data[i][j]['webname']+'</h4>'+
+				      								'<h5 class="text-center">'+data[i][j]['webname']+'</h5>'+
 				      								'<a target="_blank" href="'+data[i][j]['weblink']+'"><img src="'+data[i][j]['imgpath']+'" class="img-responsive img-rounded img_border"/></a>'+
 				  								'</div>'+
 				     						'</div>'
