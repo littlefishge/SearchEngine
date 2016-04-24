@@ -193,18 +193,16 @@
 	<body onload="nav_and_content_format();">
 	<!--Start of google search bar-->
 	<div class="container container_margin">
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
-				<a href="http://www.google.com/"><img src="img/googlelogo.png" alt="google search logo" height="80" class="img-responsive" /></a>
-			</div>
-		</div>
 		<form name="search_form" id="search_form_id" method="get" onSubmit="return buildURI(this);" action="" target="_blank" class="form-horizontal">
-			<div class="form-group">
-			<div class="col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-2 col-xs-8">
-      			<input name="search_content" id="search_content_id" class="form-control" type="text" placeholder="Search..."> 
-      		</div>
-      		<div class="col-md-2 col-sm-2 col-xs-2">
-				<input type="submit" class="btn btn-primary" name="s" value="Google it">
+			<div class="row">
+			<div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12">
+				<div class="input-group">
+	      			<input name="search_content" id="search_content_id" class="form-control" type="text" placeholder="Search by Google"> 
+	      			<span class="input-group-btn">
+					<button type="submit" class="btn btn-primary">Google</button>
+					</span>
+				</div>
+			</div>
 			</div>
 		</form>
 	</div>
@@ -217,9 +215,7 @@
 	<!-- Start of the Footer-->
 	<footer class="site_footer navbar-fixed-bottom">
 	  <div class="container">
-	    
-	    	<p class="text-center">© Copyright</p>
-	
+	    	<p class="text-center"></p>	
 	  </div>
 	</footer>
 	<!-- End of the Footer-->
