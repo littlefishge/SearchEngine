@@ -1,6 +1,6 @@
 
 #page_body{
-	background-color: #F8F8F5;
+	background-color: #F6F6F6;
 }
 
 .no-margin{
@@ -18,7 +18,7 @@
 #nav_tabs li a{
 	width: 100px;
 	text-align: center;
-	font-family: Lucida;
+	font-family: Sans-serif;
 }
 
 #nav_tabs li.active a{
@@ -33,7 +33,7 @@
 }
 
 #panel_body h5{
-	font-family: Lucida;
+	font-family: Georgia;
 }
 
 .img-rounded {
@@ -53,12 +53,6 @@
 	padding-top: 10px;
 	color: white;
 }
-
-.img_border{
-	border: 1px solid #C8C8C8;
-}
-
-
 
 @media (min-width: 768px) and (max-width: 991px) {
         h5 {
