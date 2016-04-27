@@ -1,3 +1,8 @@
+
+#page_body{
+	background-color: #F8F8F5;
+}
+
 .no-margin{
 	margin:0px;
 }
@@ -10,6 +15,32 @@
 	margin-bottom: 20px;
 }
 
+#nav_tabs li a{
+	width: 100px;
+	text-align: center;
+	font-family: Lucida;
+}
+
+#nav_tabs li.active a{
+	background-color: #4285F4;
+	color: #fff;
+
+}
+
+#nav_tabs li.hover a{
+	background-color: #0F9D58;
+
+}
+
+#panel_body h5{
+	font-family: Lucida;
+}
+
+.img-rounded {
+    border-radius: 25px;
+}
+
+
 .site_footer{
 	background-color: #222;
 	color: white;
@@ -18,7 +49,6 @@
 }
 
 .bottom_footer{
-
 	margin-top: 10px;
 	padding-top: 10px;
 	color: white;
@@ -27,6 +57,8 @@
 .img_border{
 	border: 1px solid #C8C8C8;
 }
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
         h5 {
