@@ -10,7 +10,7 @@
 	padding: 0px;
 }
 
-.container_margin{
+.container_margin_setting{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -27,19 +27,27 @@
 
 }
 
-#nav_tabs li.hover a{
-	background-color: #0F9D58;
-
-}
-
 #panel_body h5{
 	font-family: Georgia;
+	color: #202020;
 }
 
 .img-rounded {
     border-radius: 25px;
 }
 
+.sub_title{
+	font-size: 20px;
+	font-family: Georgia;
+	color: #0F9D58;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.page-header{
+	padding-bottom: 0px;
+	border-bottom:2px solid #ddd;
+}
 
 .site_footer{
 	background-color: #222;
