@@ -10,6 +10,12 @@
 	    <!-- Bootstrap -->
 	    <link href="css/bootstrap.min.css" rel="stylesheet">  
 	    <link href="css/mystyle.css" rel="stylesheet"> 
+	    
+
+	    <link href="css/font-awesome.css" rel="stylesheet">
+    	<link href="css/bootstrap-social.css" rel="stylesheet" >
+
+
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	    <!-- End of Bootstrap-->
@@ -295,6 +301,8 @@
 
 	</script>
 	<body id="page_body">
+	
+
 	<!--Start of google search bar-->
 	<div class="container container_margin_setting">
 		<form name="search_form" id="search_form_id" method="get" onSubmit="return buildURI(this);" action="" target="_blank" class="form-horizontal">
@@ -312,12 +320,26 @@
 	</div>
 	<!-- End of google search bar-->
 
+	<!--For third party login-->
+	<div class="container container_margin_setting">
+		<div class="align_to_right">
+			<span id="login">Login?</span>
+			<a class="btn btn-social-icon btn-facebook btn-xs"><span class="fa fa-facebook"></span></a>
+			<a class="btn btn-social-icon btn-twitter btn-xs"><span class="fa fa-twitter"></span></a>
+			<a class="btn btn-social-icon btn-google btn-xs"><span class="fa fa-google"></span></a>
+			<a class="btn btn-social-icon btn-linkedin btn-xs"><span class="fa fa-linkedin"></span></a>
+			<a class="btn btn-social-icon btn-instagram btn-xs"><span class="fa fa-instagram"></span></a>
+		</div>
+	</div>
+
+
+
 	<!--Start of Nav bar and Content-->
 	<div class="container container_margin_setting" id="nav_and_content">
 		<!--Start of Nav bar-->
 		<div>
-		<ul class="nav nav-tabs" id="nav_tabs">
-		</ul>
+			<ul class="nav nav-tabs" id="nav_tabs">
+			</ul>
 		</div>
 		<!--End of Nav bar-->
 		<!--Start of Content-->
