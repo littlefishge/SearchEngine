@@ -1,0 +1,83 @@
+category,subcategory,webname,weblink,imgpath,description
+Leisures,,GoldenVillage,http://www.gv.com.sg/,img/GoldenVillage.png,
+Leisures,,ShawOnline,http://www.shaw.sg/,img/ShawOnline.png,
+Leisures,,Cathay,http://www.cathaycineplexes.com.sg/movies.aspx,img/Cathay.png,
+Leisures,,WeCinemas,https://www.wecinemas.com.sg/,img/WeCinemas.png,
+Leisures,,InSing,http://www.insing.com/,img/InSing.png,
+Leisures,,SISTIC,http://www.sistic.com.sg/,img/SISTIC.png,
+Leisures,,ZOUK,http://www.zoukclub.com/,img/ZOUK.png,
+Leisures,,9GAG,http://9gag.com/,img/9gag.png,
+Shopping,eas,eBay,http://www.ebay.com.sg/,img/ebay.png,This is eBay
+Shopping,eas,Amazon,http://www.amazon.com/,img/Amazon.png,This is Amazon
+Shopping,111,LAZADA,http://www.lazada.sg/,img/lazada.png,This is lazada
+Shopping,111,ZALORA,http://www.zalora.sg/,img/zalora.png,This is zalora
+Shopping,111,ASOS,http://www.asos.com/,img/ASOS.png,This is ASOS
+Shopping,111,UNIQLO,http://www.uniqlo.com/sg/,img/UNIQLO.png,THis is uniqlo
+Shopping,111,IKEA,http://www.ikea.com/sg/en/,img/IKEA.png,This is IKEA
+Shopping,222,BargainQueen,http://bq.sg/,img/BargainQueen.png,This is BargainQueen
+Shopping,222,Deal,http://www.deal.com.sg/,img/DEALsg.png,This is Deal
+Shopping,222,65Daigou,http://marketing.65daigou.com/,img/65Daigou.png,This is 65Daigou
+Shopping,222,RedMart,https://redmart.com/,img/redmart.png,This is RedMart
+Shopping,222,Groupon,http://www.groupon.sg/,img/Groupon.png,This is Groupon
+Shopping,333,Qoo10,http://www.qoo10.sg/,img/Qoo10.png,This is Qoo10
+Shopping,333,IshopChangi,http://www.ishopchangi.com/,img/IshopChangi.png,This is IshopChangi
+Shopping,333,StreetDeal,http://www.streetdeal.sg/,img/StreetDeal.png,This is StreetDeal
+Shopping,333,JuzToday,http://www.juztoday.com/,img/juztoday.png,THis is JuzToday
+Shopping,333,SINGSALE,https://www.singsale.com.sg/,img/SINGSALE.png,THis is singsale
+Shopping,333,Megafash,https://www.megafash.com/,img/Megafash.png,THis is megafash
+Shopping,333,Sephora,http://www.sephora.sg/,img/Sephora.png,This is sephora
+Shopping,333,Pomelo,https://www.pomelofashion.com/sg/,img/Pomelo.png,This is Pomelo
+Shopping,333,Omigo,http://www.omigo.com.sg/,img/Omigo.png,This is omigo
+Shopping,333,StyleTribute,http://styletribute.com/,img/StyleTribute.png,This is styletribute
+Shopping,333,BooksActually,http://www.booksactuallyshop.com/,img/BooksActually.png,This is booksactually
+Food,ccc,MacDonald's,https://www.mcdelivery.com.sg/sg/,img/MacDonald's.png,
+Food,aaa,HungryGoWhere,http://www.hungrygowhere.com/,img/HungryGoWhere.png,
+Food,aaa,Foodpanda,https://www.foodpanda.sg/,img/Foodpanda.png,
+Food,aaa,Koipy,https://www.koipy.com/?language=en_us&setlanguage=1/,img/Koipy.png,
+Food,aaa,gourmettogo,http://www.gourmettogo.com.sg/,img/gourmettogo.png,
+Food,aaa,Sakae,http://www.sakaedelivery.com/,img/Sakae.png,
+Food,aaa,Chope,http://www.chope.co/singapore-restaurants/,img/Chope.png,
+Food,aaa,Yoshinoya,http://yoshinoya.com.sg/home/,img/Yoshinoya.png,
+Food,aaa,Foodferry,http://www.foodferry.sg/en/?___from_store=cn/,img/Foodferry.png,
+Food,aaa,StarTaster,http://startaster.com/?l=en-us/,img/StarTaster.png,
+Food,aaa,SingEat,http://www.singeat.com/,img/SingEat.png,
+Food,aaa,PizzaHut,https://www.phdelivery.com.sg/delivery/,img/Pizzahut.png,
+Vouchers,,OfferStation,http://sg.offerstation.com/,img/OfferStation.png,
+Vouchers,,CupoNation,http://www.cuponation.com.sg/,img/CupoNation.png,
+Vouchers,,CouponzGuru,http://www.couponzguru.sg/,img/CouponzGuru.png,
+Deliveries,,UPS,https://www.ups.com/sg,img/UPS.png,
+Deliveries,,Fedex,http://www.fedex.com/sg/,img/Fedex.png,
+Deliveries,,DHL,http://www.dhl.com.sg/en.html,img/DHL.png,
+Deliveries,,SF,http://www.sf-express.com/sg/en/,img/SF.png,
+Deliveries,,Singpost,http://beta.singpost.com/,img/singpost.png,
+Travels,,Booking,http://www.booking.com/,img/booking.png,
+Travels,,Airbnb,https://www.airbnb.com/,img/Airbnb.png,
+Travels,,Agoda,https://www.agoda.com/‎,img/agoda.png,
+Travels,,LonelyPlanet,http://www.lonelyplanet.com/,img/LonelyPlanet.png,
+Travels,,ExpediaTravel,https://www.expedia.com.sg/,img/ExpediaTravel.png,
+Travels,,TripAdvisor,https://www.tripadvisor.com.sg/,img/TripAdvisor.png,
+Travels,,skyscanner,http://www.skyscanner.com.sg/?locale=en-US,img/skyscanner.png,
+Career,qqq,JobStreet,http://www.jobstreet.com.sg/,img/JobStreet.png,
+Career,qqq,JobsDB,http://sg.jobsdb.com/,img/JobsDB.png,
+Career,qqq,LinkedIn,https://www.linkedin.com/,img/linkedin.png,
+Career,qqq,JobsCentral,http://jobscentral.com.sg/,img/JobsCentral.png,
+Career,h,Monster,http://www.monster.com.sg/,img/Monster.png,
+Career,b,STJOBS,http://www.stjobs.sg/,img/stjobs.png,
+Hobbies,,ClubSNAP,http://www.clubsnap.com/,img/ClubSNAP.png,
+Hobbies,,TOGOPARTS,http://www.togoparts.com/pages/index.php,img/TOGOPARTS.png,
+Hobbies,,ActiveSG,https://www.myactivesg.com/,img/ActiveSG.png,
+Hobbies,,SAFRA,http://www.safra.sg/,img/SAFRA.png,
+Banks,Banks,POSB,http://www.posb.com.sg/personal/default.page,img/POSB.png,
+Banks,Banks,DBS,http://www.dbs.com.sg/personal/default.page,img/DBS.png,
+Banks,Banks,OCBC,http://www.ocbc.com/personal-banking/,img/OCBC.png,
+Banks,Banks,UOB,http://www.uob.com.sg/personal/index.html,img/UOB.png,
+Banks,Banks,HSBC,http://www.hsbc.com.sg/,img/HSBC.png,
+Banks,Banks,StandardChartered,https://www.sc.com/sg/,img/StandardChartered.png,
+Banks,Banks,Citibank,https://www.citibank.com.sg/,img/Citibank.png,
+Banks,Banks,BOC,http://www.bankofchina.com/sg/,img/BOC.png,
+Banks,Banks,Maybank,http://info.maybank2u.com.sg/,img/Maybank.png,
+Banks,Banks,ANZ,http://www.anz.com/singapore/en/Personal/,img/ANZ.png,
+Banks,Banks,RHB,http://www.rhbbank.com.sg/,img/RHB.png,
+Banks,Banks,BOI,http://www.boi.com.sg/,img/BOI.png,
+Banks,Banks,SBI,https://www.sbising.com/,img/SBI.png,
+Banks,Banks,CIMB,http://www.cimbbank.com.sg/,img/CIMB.png,

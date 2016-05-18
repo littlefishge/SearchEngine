@@ -1,0 +1,540 @@
+{
+  "Shopping": [
+    {
+      "subcategory": "eas",
+      "webname": "eBay",
+      "weblink": "http://www.ebay.com.sg/",
+      "imgpath": "img/ebay.png",
+      "description": "This is eBay"
+    },
+    {
+      "subcategory": "eas",
+      "webname": "Amazon",
+      "weblink": "http://www.amazon.com/",
+      "imgpath": "img/Amazon.png",
+      "description": "This is Amazon"
+    },
+    {
+      "subcategory": "111",
+      "webname": "LAZADA",
+      "weblink": "http://www.lazada.sg/",
+      "imgpath": "img/lazada.png",
+      "description": "This is lazada"
+    },
+    {
+      "subcategory": "111",
+      "webname": "ZALORA",
+      "weblink": "http://www.zalora.sg/",
+      "imgpath": "img/zalora.png",
+      "description": "This is zalora"
+    },
+    {
+      "subcategory": "111",
+      "webname": "ASOS",
+      "weblink": "http://www.asos.com/",
+      "imgpath": "img/ASOS.png",
+      "description": "This is ASOS"
+    },
+    {
+      "subcategory": "111",
+      "webname": "UNIQLO",
+      "weblink": "http://www.uniqlo.com/sg/",
+      "imgpath": "img/UNIQLO.png",
+      "description": "THis is uniqlo"
+    },
+    {
+      "subcategory": "111",
+      "webname": "IKEA",
+      "weblink": "http://www.ikea.com/sg/en/",
+      "imgpath": "img/IKEA.png",
+      "description": "This is IKEA"
+    },
+    {
+      "subcategory": "222",
+      "webname": "BargainQueen",
+      "weblink": "http://bq.sg/",
+      "imgpath": "img/BargainQueen.png",
+      "description": "This is BargainQueen"
+    },
+    {
+      "subcategory": "222",
+      "webname": "Deal",
+      "weblink": "http://www.deal.com.sg/",
+      "imgpath": "img/DEALsg.png",
+      "description": "This is Deal"
+    },
+    {
+      "subcategory": "222",
+      "webname": "65Daigou",
+      "weblink": "http://marketing.65daigou.com/",
+      "imgpath": "img/65Daigou.png",
+      "description": "This is 65Daigou"
+    },
+    {
+      "subcategory": "222",
+      "webname": "RedMart",
+      "weblink": "https://redmart.com/",
+      "imgpath": "img/redmart.png",
+      "description": "This is RedMart"
+    },
+    {
+      "subcategory": "222",
+      "webname": "Groupon",
+      "weblink": "http://www.groupon.sg/",
+      "imgpath": "img/Groupon.png",
+      "description": "This is Groupon"
+    },
+    {
+      "subcategory": "333",
+      "webname": "Qoo10",
+      "weblink": "http://www.qoo10.sg/",
+      "imgpath": "img/Qoo10.png",
+      "description": "This is Qoo10"
+    },
+    {
+      "subcategory": "333",
+      "webname": "IshopChangi",
+      "weblink": "http://www.ishopchangi.com/",
+      "imgpath": "img/IshopChangi.png",
+      "description": "This is IshopChangi"
+    },
+    {
+      "subcategory": "333",
+      "webname": "StreetDeal",
+      "weblink": "http://www.streetdeal.sg/",
+      "imgpath": "img/StreetDeal.png",
+      "description": "This is StreetDeal"
+    },
+    {
+      "subcategory": "333",
+      "webname": "JuzToday",
+      "weblink": "http://www.juztoday.com/",
+      "imgpath": "img/juztoday.png",
+      "description": "THis is JuzToday"
+    },
+    {
+      "subcategory": "333",
+      "webname": "SINGSALE",
+      "weblink": "https://www.singsale.com.sg/",
+      "imgpath": "img/SINGSALE.png",
+      "description": "THis is singsale"
+    },
+    {
+      "subcategory": "333",
+      "webname": "Megafash",
+      "weblink": "https://www.megafash.com/",
+      "imgpath": "img/Megafash.png",
+      "description": "THis is megafash"
+    },
+    {
+      "subcategory": "333",
+      "webname": "Sephora",
+      "weblink": "http://www.sephora.sg/",
+      "imgpath": "img/Sephora.png",
+      "description": "This is sephora"
+    },
+    {
+      "subcategory": "333",
+      "webname": "Pomelo",
+      "weblink": "https://www.pomelofashion.com/sg/",
+      "imgpath": "img/Pomelo.png",
+      "description": "This is Pomelo"
+    },
+    {
+      "subcategory": "333",
+      "webname": "Omigo",
+      "weblink": "http://www.omigo.com.sg/",
+      "imgpath": "img/Omigo.png",
+      "description": "This is omigo"
+    },
+    {
+      "subcategory": "333",
+      "webname": "StyleTribute",
+      "weblink": "http://styletribute.com/",
+      "imgpath": "img/StyleTribute.png",
+      "description": "This is styletribute"
+    },
+    {
+      "subcategory": "333",
+      "webname": "BooksActually",
+      "weblink": "http://www.booksactuallyshop.com/",
+      "imgpath": "img/BooksActually.png",
+      "description": "This is booksactually"
+    }
+  ],
+  "Food": [
+    {
+      "subcategory": "ccc",
+      "webname": "MacDonald's",
+      "weblink": "https://www.mcdelivery.com.sg/sg/",
+      "imgpath": "img/MacDonald's.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "HungryGoWhere",
+      "weblink": "http://www.hungrygowhere.com/",
+      "imgpath": "img/HungryGoWhere.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "Foodpanda",
+      "weblink": "https://www.foodpanda.sg/",
+      "imgpath": "img/Foodpanda.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "Koipy",
+      "weblink": "https://www.koipy.com/?language=en_us&setlanguage=1/",
+      "imgpath": "img/Koipy.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "gourmettogo",
+      "weblink": "http://www.gourmettogo.com.sg/",
+      "imgpath": "img/gourmettogo.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "Sakae",
+      "weblink": "http://www.sakaedelivery.com/",
+      "imgpath": "img/Sakae.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "Chope",
+      "weblink": "http://www.chope.co/singapore-restaurants/",
+      "imgpath": "img/Chope.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "Yoshinoya",
+      "weblink": "http://yoshinoya.com.sg/home/",
+      "imgpath": "img/Yoshinoya.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "Foodferry",
+      "weblink": "http://www.foodferry.sg/en/?___from_store=cn/",
+      "imgpath": "img/Foodferry.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "StarTaster",
+      "weblink": "http://startaster.com/?l=en-us/",
+      "imgpath": "img/StarTaster.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "SingEat",
+      "weblink": "http://www.singeat.com/",
+      "imgpath": "img/SingEat.png",
+      "description": ""
+    },
+    {
+      "subcategory": "aaa",
+      "webname": "PizzaHut",
+      "weblink": "https://www.phdelivery.com.sg/delivery/",
+      "imgpath": "img/Pizzahut.png",
+      "description": ""
+    }
+  ],
+  "Career": [
+    {
+      "subcategory": "qqq",
+      "webname": "JobStreet",
+      "weblink": "http://www.jobstreet.com.sg/",
+      "imgpath": "img/JobStreet.png",
+      "description": ""
+    },
+    {
+      "subcategory": "qqq",
+      "webname": "JobsDB",
+      "weblink": "http://sg.jobsdb.com/",
+      "imgpath": "img/JobsDB.png",
+      "description": ""
+    },
+    {
+      "subcategory": "qqq",
+      "webname": "LinkedIn",
+      "weblink": "https://www.linkedin.com/",
+      "imgpath": "img/linkedin.png",
+      "description": ""
+    },
+    {
+      "subcategory": "qqq",
+      "webname": "JobsCentral",
+      "weblink": "http://jobscentral.com.sg/",
+      "imgpath": "img/JobsCentral.png",
+      "description": ""
+    },
+    {
+      "subcategory": "h",
+      "webname": "Monster",
+      "weblink": "http://www.monster.com.sg/",
+      "imgpath": "img/Monster.png",
+      "description": ""
+    },
+    {
+      "subcategory": "b",
+      "webname": "STJOBS",
+      "weblink": "http://www.stjobs.sg/",
+      "imgpath": "img/stjobs.png",
+      "description": ""
+    }
+  ],
+  "Hobbies": [
+    {
+      "webname": "ClubSNAP",
+      "weblink": "http://www.clubsnap.com/",
+      "imgpath": "img/ClubSNAP.png"
+    },
+    {
+      "webname": "TOGOPARTS",
+      "weblink": "http://www.togoparts.com/pages/index.php",
+      "imgpath": "img/TOGOPARTS.png"
+    },
+    {
+      "webname": "ActiveSG",
+      "weblink": "https://www.myactivesg.com/",
+      "imgpath": "img/ActiveSG.png"
+    },
+    {
+      "webname": "SAFRA",
+      "weblink": "http://www.safra.sg/",
+      "imgpath": "img/SAFRA.png"
+    }
+  ],
+  "Banks": [
+    {
+      "subcategory": "Banks",
+      "webname": "POSB",
+      "weblink": "http://www.posb.com.sg/personal/default.page",
+      "imgpath": "img/POSB.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "DBS",
+      "weblink": "http://www.dbs.com.sg/personal/default.page",
+      "imgpath": "img/DBS.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "OCBC",
+      "weblink": "http://www.ocbc.com/personal-banking/",
+      "imgpath": "img/OCBC.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "UOB",
+      "weblink": "http://www.uob.com.sg/personal/index.html",
+      "imgpath": "img/UOB.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "HSBC",
+      "weblink": "http://www.hsbc.com.sg/",
+      "imgpath": "img/HSBC.png"
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "StandardChartered",
+      "weblink": "https://www.sc.com/sg/",
+      "imgpath": "img/StandardChartered.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "Citibank",
+      "weblink": "https://www.citibank.com.sg/",
+      "imgpath": "img/Citibank.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "BOC",
+      "weblink": "http://www.bankofchina.com/sg/",
+      "imgpath": "img/BOC.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "Maybank",
+      "weblink": "http://info.maybank2u.com.sg/",
+      "imgpath": "img/Maybank.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "ANZ",
+      "weblink": "http://www.anz.com/singapore/en/Personal/",
+      "imgpath": "img/ANZ.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "RHB",
+      "weblink": "http://www.rhbbank.com.sg/",
+      "imgpath": "img/RHB.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "BOI",
+      "weblink": "http://www.boi.com.sg/",
+      "imgpath": "img/BOI.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "SBI",
+      "weblink": "https://www.sbising.com/",
+      "imgpath": "img/SBI.png",
+      "description": ""
+    },
+    {
+      "subcategory": "Banks",
+      "webname": "CIMB",
+      "weblink": "http://www.cimbbank.com.sg/",
+      "imgpath": "img/CIMB.png",
+      "description": ""
+    }
+  ],
+
+  "Travels": [
+    {
+      "webname": "Booking",
+      "weblink": "http://www.booking.com/",
+      "imgpath": "img/booking.png"
+    },
+    {
+      "webname": "Airbnb",
+      "weblink": "https://www.airbnb.com/",
+      "imgpath": "img/Airbnb.png"
+    },
+    {
+      "webname": "Agoda",
+      "weblink": "https://www.agoda.com/‎",
+      "imgpath": "img/agoda.png"
+    },
+    {
+      "webname": "LonelyPlanet",
+      "weblink": "http://www.lonelyplanet.com/",
+      "imgpath": "img/LonelyPlanet.png"
+    },
+    {
+      "webname": "ExpediaTravel",
+      "weblink": "https://www.expedia.com.sg/",
+      "imgpath": "img/ExpediaTravel.png"
+    },
+    {
+      "webname": "TripAdvisor",
+      "weblink": "https://www.tripadvisor.com.sg/",
+      "imgpath": "img/TripAdvisor.png"
+    },
+    {
+      "webname": "skyscanner",
+      "weblink": "http://www.skyscanner.com.sg/?locale=en-US",
+      "imgpath": "img/skyscanner.png"
+    }
+  ],
+  "Leisures": [
+    {
+      "webname": "GoldenVillage",
+      "weblink": "http://www.gv.com.sg/",
+      "imgpath": "img/GoldenVillage.png"
+    },
+    {
+      "webname": "ShawOnline",
+      "weblink": "http://www.shaw.sg/",
+      "imgpath": "img/ShawOnline.png"
+    },
+    {
+      "webname": "Cathay",
+      "weblink": "http://www.cathaycineplexes.com.sg/movies.aspx",
+      "imgpath": "img/Cathay.png"
+    },
+    {
+      "webname": "WeCinemas",
+      "weblink": "https://www.wecinemas.com.sg/",
+      "imgpath": "img/WeCinemas.png"
+    },
+    {
+      "webname": "InSing",
+      "weblink": "http://www.insing.com/",
+      "imgpath": "img/InSing.png"
+    },
+    {
+      "webname": "SISTIC",
+      "weblink": "http://www.sistic.com.sg/",
+      "imgpath": "img/SISTIC.png"
+    },
+    {
+      "webname": "ZOUK",
+      "weblink": "http://www.zoukclub.com/",
+      "imgpath": "img/ZOUK.png"
+    },
+    {
+      "webname": "9GAG",
+      "weblink": "http://9gag.com/",
+      "imgpath": "img/9gag.png"
+    }
+  ],
+  "Vouchers": [
+    {
+      "webname": "OfferStation",
+      "weblink": "http://sg.offerstation.com/",
+      "imgpath": "img/OfferStation.png"
+    },
+    {
+      "webname": "CupoNation",
+      "weblink": "http://www.cuponation.com.sg/",
+      "imgpath": "img/CupoNation.png"
+    },
+    {
+      "webname": "CouponzGuru",
+      "weblink": "http://www.couponzguru.sg/",
+      "imgpath": "img/CouponzGuru.png"
+    }
+  ],
+  "Deliveries": [
+    {
+      "webname": "UPS",
+      "weblink": "https://www.ups.com/sg",
+      "imgpath": "img/UPS.png"
+    },
+    {
+      "webname": "Fedex",
+      "weblink": "http://www.fedex.com/sg/",
+      "imgpath": "img/Fedex.png"
+    },
+    {
+      "webname": "DHL",
+      "weblink": "http://www.dhl.com.sg/en.html",
+      "imgpath": "img/DHL.png"
+    },
+    {
+      "webname": "SF",
+      "weblink": "http://www.sf-express.com/sg/en/",
+      "imgpath": "img/SF.png"
+    },
+    {
+      "webname": "Singpost",
+      "weblink": "http://beta.singpost.com/",
+      "imgpath": "img/singpost.png"
+    }
+  ]
+}
