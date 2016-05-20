@@ -19,19 +19,26 @@
 	text-align: right;
 }
 
-#login{
-	font-family: Sans-serif;
+.LogIn , .SignUp{
+	font-family: Georgia;
 	color: #4285F4;
 	display: inline-block;
+	font-size: 15px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
 
+.nav-tabs{
+	border-bottom: 2px solid #ddd;
+}
+
+
 #nav_tabs li a{
 	width: 100px;
+	font-size: 15px;
 	text-align: center;
-	font-family: Sans-serif;
+	font-family: Georgia;
 }
 
 #nav_tabs li.active a{
@@ -50,7 +57,7 @@
 }
 
 .sub_title{
-	font-size: 20px;
+	font-size: 15px;
 	font-family: Georgia;
 	color: #0F9D58;
 	margin: 20px 25px 10px 25px;
@@ -58,7 +65,7 @@
 
 .page-header{
 	padding-bottom: 0px;
-	border-bottom:2px solid #ddd;
+	border-bottom:1px solid #ddd;
 }
 
 .site_footer{

@@ -240,7 +240,7 @@
 							sub_category_html_content += '<div class="col-md-2 col-sm-2 col-xs-4">'+
 				      										'<div class="panel-body" id="panel_body">'+
 				      											'<h5 class="text-center">'+data[i][j]['webname']+'</h5>'+
-				      												'<a href="'+data[i][j]['weblink']+'" data-placement="bottom" data-toggle="popover" data-content="'+data[i][j]['description']+'" data-trigger="hover" target="_blank"><img src="'+data[i][j]['imgpath']+'" id="'+data[i][j]['webname']+'" class="img-responsive img-rounded"/></a>'+
+				      												'<a href="'+data[i][j]['weblink']+'" data-placement="bottom" data-toggle="tooltip" title="'+data[i][j]['description']+'" target="_blank"><img src="'+data[i][j]['imgpath']+'" id="'+data[i][j]['webname']+'" class="img-responsive img-rounded"/></a>'+
 				  											'</div>'+
 				     									'</div>'
 						}
@@ -339,18 +339,23 @@
 	</div>
 	<!-- End of google search bar-->
 
-	<!--For third party login
+	<!--For third party login	-->
 	<div class="container container_margin_setting">
-		<div class="align_to_right">
-			<span id="login">Login?</span>
-			<a class="btn btn-social-icon btn-facebook btn-xs"><span class="fa fa-facebook"></span></a>
-			<a class="btn btn-social-icon btn-twitter btn-xs"><span class="fa fa-twitter"></span></a>
-			<a class="btn btn-social-icon btn-google btn-xs"><span class="fa fa-google"></span></a>
-			<a class="btn btn-social-icon btn-linkedin btn-xs"><span class="fa fa-linkedin"></span></a>
-			<a class="btn btn-social-icon btn-instagram btn-xs"><span class="fa fa-instagram"></span></a>
+		<div class="row">
+			<div class="align_to_right col-md-3 col-md-offset-6">	
+				<a class="btn btn-social-icon btn-facebook btn-xs"><span class="fa fa-facebook"></span></a>
+				<a class="btn btn-social-icon btn-twitter btn-xs"><span class="fa fa-twitter"></span></a>
+				<a class="btn btn-social-icon btn-google btn-xs"><span class="fa fa-google"></span></a>
+				<a class="btn btn-social-icon btn-linkedin btn-xs"><span class="fa fa-linkedin"></span></a>
+				<a class="btn btn-social-icon btn-instagram btn-xs"><span class="fa fa-instagram"></span></a>
+			</div>
+			<div class="align_to_right col-md-3">
+				<span class="LogIn">Log In</span>
+				<span class="SignUp">Sign Up</span>
+			</div>
 		</div>
 	</div>
-	-->
+
 	<!--Start of Nav bar and Content-->
 	<div class="container container_margin_setting" id="nav_and_content">
 		<!--Start of Nav bar-->
